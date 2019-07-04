@@ -34,7 +34,7 @@ int getArgVal(char* arg){
 // Debugging function, print part of the graph in the terminal.
 void displayMatrix(vector<vector<int> > matrix, int dim){
   int i, j;
-  if (dim > 50) dim = 10;
+  if (dim > 10) dim = 10;
   for (i = 0; i < dim; i++){
     for (j = 0; j < dim; j++){
       cout << matrix[i][j] << "\t";
@@ -43,22 +43,29 @@ void displayMatrix(vector<vector<int> > matrix, int dim){
   }
 }
 
+// Given:
+//  -> metaheuristic code, integer
+//  -> number of threads to use, integer
+//  -> filename of the problem description, string
+// Output:
+//  -> solution value and time used.
 int main(int argc, char* argv[]){
   if (argsInvalid(argc)) return -1;
   int heuristic = getArgVal(argv[1]);
   int threadCount = getArgVal(argv[2]);
   string filename = argv[3];
   string filepath = "./Data/" + filename;
-  Graph* weightGraph = new Graph(filepath);
+  Graph* wGraph = new Graph(filepath);
   cout << "Processing file: " << filepath << endl;
-  cout << "Graph dimension: " << weightGraph->dimension << endl;
+  cout << "Graph dimension: " << wGraph->dimension << endl;
   cout << "Number of threads selected: " << threadCount << endl;
-  displayMatrix(weightGraph->edgeMatrix, weightGraph->dimension);
+  displayMatrix(wGraph->edgeMatrix, wGraph->dimension);
   switch(heuristic){
     case ITERATED_LOCAL_SEARCH:
-      p_iteratedLS(weightGraph, threadCount);
+      p_iteratedLS(wGraph, threadCount);
       break;
     case SIMULATED_ANNEALING:
+      p_simulatedAnnealing();
       break;
     default:
       cout << "ERROR: Invalid heuristic selected." << endl;
