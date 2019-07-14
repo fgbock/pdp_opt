@@ -1,0 +1,111 @@
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	2
+Iterations:	20000
+Time elapsed:	1395.91
+Initial Value:	2205
+Best Value: 	1834
+
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	3
+Iterations:	5000
+Time elapsed:	236.694
+Initial Value:	2205
+Best Value: 	1846
+
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	3
+Iterations:	10000
+Time elapsed:	468.507
+Initial Value:	2205
+Best Value: 	1830
+
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	3
+Iterations:	15000
+Time elapsed:	702.766
+Initial Value:	2205
+Best Value: 	1814
+
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	3
+Iterations:	20000
+Time elapsed:	939.098
+Initial Value:	2205
+Best Value: 	1837
+
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	4
+Iterations:	5000
+Time elapsed:	179.489
+Initial Value:	2205
+Best Value: 	1839
+
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	4
+Iterations:	10000
+Time elapsed:	355.814
+Initial Value:	2205
+Best Value: 	1836
+
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	4
+Iterations:	15000
+Time elapsed:	536.001
+Initial Value:	2205
+Best Value: 	1821
+
+Filename:	./Data/rbg150a.sop
+Metaheuristic:	1
+Threads:	4
+Iterations:	20000
+Time elapsed:	711.892
+Initial Value:	2205
+Best Value: 	1814
+
+Filename:	./Data/rbg174a.sop
+Metaheuristic:	1
+Threads:	1
+Iterations:	5000
+Time elapsed:	1030.47
+Initial Value:	2522
+Best Value: 	2188
+
+Filename:	./Data/rbg174a.sop
+Metaheuristic:	1
+Threads:	1
+Iterations:	10000
+Time elapsed:	2064.46
+Initial Value:	2522
+Best Value: 	2170
+
+Filename:	./Data/rbg174a.sop
+Metaheuristic:	1
+Threads:	1
+Iterations:	15000
+Time elapsed:	3134.16
+Initial Value:	2522
+Best Value: 	2170
+Filename:	./Data/rbg174a.sop
+Metaheuristic:	1
+Threads:	1
+Iterations:	20000
+Time elapsed:	4141.7
+Initial Value:	2522
+Best Value: 	2161
+
+Filename:	./Data/rbg174a.sop
+Metaheuristic:	1
+Threads:	2
+Iterations:	5000
+Time elapsed:	532.143
+Initial Value:	2522
+Best Value: 	2188
+

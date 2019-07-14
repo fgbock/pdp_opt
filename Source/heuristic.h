@@ -4,17 +4,8 @@
 #include "parser.h"
 using namespace std;
 
-// Builds a (greedy) initial solution.
-int buildInitial(Graph* wGraph);
-
-// Verifies if the order restriction is satisfied for a given node.
-int checkOrder(int node, int position);
-
-// Parallelized heuristic, reaches a local maximum/minimum.
-int p_localSearch();
-
 // Parallelized metaheuristic, system entropy based local search.
-void p_simulatedAnnealing();
+void p_simulatedAnnealing(Graph* wGraph, int threadCount, int stopCond, string filename, int testId);
 
 // Parallelized metaheuristic, iterates calls to local search.
-void p_iteratedLS(Graph* wGraph, int threadCount);
+void p_iteratedLS(Graph* wGraph, int threadCount, int stopCond, string filename, int testId);
